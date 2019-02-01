@@ -7,9 +7,9 @@ const Team = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 col-sm-6">
-            <img src={team} alt="team" className="img-fluid" />
+            <img src={team} alt="team" className="img-fluid pb-4" />
           </div>
-          <div className="col-12 col-sm-6">
+          <div className="col-12 col-sm-6 align-self-center">
             <h2>Stay productive, where yor are</h2>
             <p>
               Never let location be an issue when accessing your files. Fylo has

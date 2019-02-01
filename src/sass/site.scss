@@ -2,8 +2,11 @@
 @import "intro";
 @import "features";
 @import "team";
+
 $backgroun-body: hsl(217, 28%, 15%);
 $background-sections: hsl(218, 28%, 13%);
+$raleway: "Raleway", sans-serif;
+$open-sans: "Open Sans", sans-serif;
 
 %background-body {
   background: $backgroun-body;
@@ -14,4 +17,23 @@ $background-sections: hsl(218, 28%, 13%);
 }
 body {
   @extend %background-body;
+  font-family: $open-sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+header,
+button {
+  font-family: $raleway;
 }
