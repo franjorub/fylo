@@ -11,14 +11,14 @@ const Features = () => {
       id="features"
     >
       <div className="row">
-        <div className="col-12 col-sm-4 mb-5 pb-5 mr-0 mr-sm-5">
+        <div className="col-12 col-sm-4 mb-5  mr-0 mr-sm-5">
           <Feature
             icon={anywhere}
             title="Access your files, anywhere"
             description="the ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere."
           />
         </div>
-        <div className="col-12 col-sm-4 mb-5 pb-5 ml-0 ml-sm-5">
+        <div className="col-12 col-sm-4 mb-5  ml-0 ml-sm-5">
           <Feature
             icon={security}
             title="Security you can trust"
@@ -27,21 +27,18 @@ const Features = () => {
         </div>
         <div className="w-100" />
         <div className="col-12 col-sm-4 mb-5 mr-0 mr-sm-5">
-          <img src={colaboration} alt="computer" className="img-fluid mb-4" />
-          <h3>Real-time collaboration</h3>
-          <p>
-            Securely share files and folders with friends, family and collegues
-            for live collaboration. No email attachments required.
-          </p>
+          <Feature
+            icon={colaboration}
+            title="Real-time collaboration"
+            description="Securely share files and folders with friends, family and collegues for live collaboration. No email attachments required."
+          />
         </div>
         <div className="col-12 col-sm-4 mb-5 ml-0 ml-sm-5">
-          <img src={files} alt="computer" className="img-fluid mb-4" />
-          <h3>Store any type of file</h3>
-          <p>
-            Whether you're sharing holidays photos or work documents, Fylo has
-            you covered allowing for all file types to be securely sotred and
-            shared.
-          </p>
+          <Feature
+            icon={files}
+            title="Store any type of file"
+            description="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely sotred and shared."
+          />
         </div>
       </div>
     </section>

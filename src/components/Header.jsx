@@ -22,12 +22,12 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav justify-content-end w-100">
           <li className="nav-item pr-5">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#features">
               Features
             </a>
           </li>
           <li className="nav-item pr-5">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#team">
               Team
             </a>
           </li>
