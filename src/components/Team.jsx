@@ -19,7 +19,7 @@ const Team = () => {
               Securely share files and folders with friends, family and
               collagues for live collaborations. No email attachements required.
             </p>
-            <button type="button">
+            <button type="button" className="button">
               See how fylo works <img src={arrow} alt="arrow" />
             </button>
           </div>
