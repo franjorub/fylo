@@ -1,6 +1,17 @@
 @import "background";
 @import "intro";
 @import "features";
+@import "team";
+$backgroun-body: hsl(217, 28%, 15%);
+$background-sections: hsl(218, 28%, 13%);
+
+%background-body {
+  background: $backgroun-body;
+}
+
+%background-sections {
+  background: $background-sections;
+}
 body {
-  background-color: hsl(217, 28%, 15%);
+  @extend %background-body;
 }

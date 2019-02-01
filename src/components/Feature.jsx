@@ -5,7 +5,7 @@ const Feature = props => {
   return (
     <div>
       <img src={icon} alt="computer" className="img-fluid mb-4" />
-      <h3>{title}</h3>
+      <h4>{title}</h4>
       <p>{description}</p>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import intro from "../images/illustration-intro.png";
 const Intro = () => {
   return (
-    <section className="container-fluid mt-2 pt-5" id="intro">
+    <section className="container-fluid mt-2 pt-5 pb-5" id="intro">
       <div className="row justify-content-center">
         <div className="col-12 col-sm-6">
           <img src={intro} alt="intro" srcset="" className="img-fluid" />
