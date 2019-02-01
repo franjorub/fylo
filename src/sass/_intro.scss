@@ -1,0 +1,11 @@
+#intro {
+  .button {
+    display: inline-block;
+    width: 17%;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    padding: 14px;
+    @extend %background;
+  }
+}
