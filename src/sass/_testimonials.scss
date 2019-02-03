@@ -1,0 +1,13 @@
+#testimonials {
+  @extend %background-sections;
+  position: relative;
+  .quotes {
+    position: absolute;
+    top: -20px;
+    left: 15px;
+  }
+}
+
+.testimonial {
+  background: hsl(219, 30%, 18%);
+}
