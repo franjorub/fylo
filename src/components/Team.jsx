@@ -3,7 +3,7 @@ import team from "../images/illustration-stay-productive.png";
 import arrow from "../images/icon-arrow.svg";
 const Team = () => {
   return (
-    <section id="team" className="text-white pt-5">
+    <section id="team" className="text-white pt-5 pb-5">
       <div className="container">
         <div className="row">
           <div className="col-12 col-sm-6">
@@ -19,9 +19,9 @@ const Team = () => {
               Securely share files and folders with friends, family and
               collagues for live collaborations. No email attachements required.
             </p>
-            <button type="button" className="button">
-              See how fylo works <img src={arrow} alt="arrow" />
-            </button>
+            <a href="#team">
+              See how Fylo works <img src={arrow} alt="arrow" />
+            </a>
           </div>
         </div>
       </div>

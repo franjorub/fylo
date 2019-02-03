@@ -4,6 +4,7 @@ import Intro from "./Intro";
 import FeatureList from "./FeatureList";
 import "../sass/site.scss";
 import Team from "./Team";
+import Testimonials from "./Testimonials";
 const App = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const App = () => {
       <Intro />
       <FeatureList />
       <Team />
+      <Testimonials />
     </div>
   );
 };

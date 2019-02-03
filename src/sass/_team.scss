@@ -1,5 +1,10 @@
-@import "button";
+$accent: rgba(100, 225, 217, 1);
 
 #team {
   @extend %background-sections;
+  a {
+    padding-bottom: 5px;
+    color: $accent;
+    border-bottom: 1px solid $accent;
+  }
 }
